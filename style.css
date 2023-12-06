@@ -1,0 +1,287 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+}
+.header {
+  background-color: black;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  width: 100%;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-nav-list {
+  display: flex;
+}
+.header-nav-list a {
+  text-decoration: none;
+  color: white;
+  padding: 18px 20px;
+  text-transform: uppercase;
+}
+.header-nav-list a:hover {
+  background-color: #ccc;
+  color: black;
+}
+.header-search-icon:hover {
+  background-color: #ff5600;
+}
+.fa-caret-down {
+  margin-left: 10px;
+}
+.fa-magnifying-glass {
+  color: white;
+  padding: 20px 35px;
+}
+.dropdown-list {
+  background-color: white;
+  position: absolute;
+  top: 56px;
+  left: 25rem;
+  display: none;
+}
+.dropdown-list a {
+  color: black;
+  display: block;
+  text-transform: capitalize;
+}
+.top-hero-image {
+  /* position: relative; */
+}
+.top-hero-image img {
+  width: 100%;
+  height: auto;
+}
+.top-hero-content {
+  position: absolute;
+  bottom: -14rem;
+  width: 100%;
+}
+.top-hero-content h2 {
+  text-align: center;
+  color: white;
+}
+
+.top-hero-content p {
+  text-align: center;
+  color: white;
+}
+
+.brand-section {
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 7rem;
+}
+
+#brand-title {
+  text-align: center;
+  margin: 10px 0px;
+  letter-spacing: 4px;
+  font-size: 35px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+#sub-title {
+  text-align: center;
+  margin: 1.5rem 0 1rem 0;
+  color: #ccc;
+}
+#description {
+  text-align: justify;
+  color: black;
+}
+.brand-card-list {
+  display: flex;
+  justify-content: space-between;
+  margin: 5rem auto;
+  text-align: center;
+}
+.brand-card-list div img {
+  border-radius: 10px;
+  margin-top: 25px;
+  width: 12rem;
+  height: 13rem;
+}
+.tour-section {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+.tour-dates {
+  /* margin: 0 auto; */
+  padding-top: 7rem;
+}
+.tour-dates h3 {
+  color: white;
+  text-align: center;
+  letter-spacing: 4px;
+  font-size: 35px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.tour-dates p {
+  color: grey;
+  text-align: center;
+  margin-top: 10px;
+}
+.list-dates {
+  background-color: white;
+  list-style: none;
+  margin-top: 2rem;
+}
+.list-dates li {
+  padding: 9px 10px;
+  border-bottom: 1px solid;
+}
+.list-dates #status {
+  background-color: brown;
+  padding: 2px 5px;
+  color: white;
+  margin-left: 5px;
+}
+.list-dates li:last-child {
+  display: flex;
+  justify-content: space-between;
+}
+
+.list-dates #count {
+  background-color: black;
+  color: white;
+  padding: 2px 9px;
+  border-radius: 15px;
+}
+
+.tour-container {
+  width: 60vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 3rem;
+  padding: 3rem 0rem;
+}
+
+.tour-card-list {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.tour-card {
+  background-color: white;
+  width: 262px;
+}
+.tour-card img {
+  width: 262px;
+  object-fit: contain;
+}
+.tour-card-content {
+  margin: 1.5rem 1rem;
+}
+.tour-card-content p {
+  margin: 15px 0px;
+  font-size: 15px;
+  font-weight: 400;
+}
+.tour-card-content #date {
+  color: #ccc;
+}
+.tour-card-content button {
+  padding: 10px;
+  background-color: black;
+  border: none;
+  color: white;
+  margin: 15px 0px;
+}
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  margin: 5rem 10rem;
+}
+.contact-header {
+  text-align: center;
+}
+.contact-header h3 {
+  margin: 10px 0px;
+  letter-spacing: 4px;
+  font-size: 35px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.contact-header p {
+  color: #ccc;
+  font-style: italic;
+}
+.contact-secondy {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 55vw;
+}
+.contact-details {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.contact-details span {
+  font-size: 20px;
+  font-weight: 400;
+}
+.contact-fom-container {
+  text-align: right;
+}
+.contact-fom-container form div {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+.contact-fom-container form input {
+  border: 1px solid #ccc;
+  padding: 10px;
+  display: block;
+}
+.contact-fom-container form #message-input {
+  width: -webkit-fill-available;
+  margin: 15px 0px;
+}
+.contact-fom-container form button {
+  padding: 10px 25px;
+  background-color: black;
+  border: none;
+  color: white;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+.map {
+  margin: 8rem 0rem;
+}
+.map img {
+  width: 100%;
+}
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: gray;
+  margin: 4rem 0rem;
+}
+.footer .social-link-container {
+  display: flex;
+  gap: 5px;
+}
+.footer .social-link-container li {
+  display: block;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+.footer a {
+  color: gray;
+}
